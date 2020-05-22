@@ -6,10 +6,10 @@
     opacity: 1;
     transform: translate(0); } }
 
-@keyframes moveDownLong {
+@keyframes moveLong {
   0% {
     opacity: 0;
-    transform: translateY(-800rem); }
+    transform: translateX(800rem); }
   100% {
     opacity: 1;
     transform: translate(0); } }
@@ -90,7 +90,7 @@ body {
       animation-duration: 1.75s;
       animation-timing-function: ease-out; }
     .header__box--copy {
-      animation-name: moveDownLong;
+      animation-name: moveLong;
       animation-duration: 4s; }
 
 .section-projects {

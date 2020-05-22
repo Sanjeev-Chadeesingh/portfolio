@@ -10,10 +10,10 @@
     }
 }
 
-@keyframes moveDownLong {
+@keyframes moveLong {
     0% {
         opacity: 0;
-        transform: translateY(-800rem);
+        transform: translateX(800rem);
     }
 
     100% {
