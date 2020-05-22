@@ -1,4 +1,7 @@
 .header {
-    background-color: red;
     grid-area: head;
+    background-image: linear-gradient(to right, rgba($color-black, .1), rgba($color-black, .1)), url(../../img/responsive-image.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }

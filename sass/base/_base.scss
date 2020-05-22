@@ -15,14 +15,17 @@ body {
     font-family: $font-primary;
     font-size: 1.4rem;
     line-height: 1.5;
+    background-color: $color-secondary-1;
 }
 
 .container {
+    width: 90%;
+    margin: 1rem auto;
+    background-color: $color-secondary-2;
     display: grid;
     grid-template-areas: "head head"
-                        "about projects"
-                        "footer footer";
-    & > * {
-        padding: 5rem;
-    }
+                         "about about"
+                         "projects projects"
+                         "footer footer";
+    
 }
