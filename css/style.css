@@ -20,7 +20,12 @@ body {
   margin: 1rem auto;
   background-color: #34495e;
   display: grid;
-  grid-template-areas: "head head" "about about" "projects projects" "footer footer"; }
+  grid-template-areas: "head" "about" "projects" "footer"; }
+
+.main-heading {
+  color: white;
+  font-size: 10rem;
+  letter-spacing: .35rem; }
 
 .section-about {
   background-color: blue;
@@ -32,7 +37,7 @@ body {
 
 .header {
   grid-area: head;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../../img/responsive-image.jpeg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../img/header-image3.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; }
@@ -42,4 +47,4 @@ body {
   grid-area: projects; }
 
 .header {
-  height: 85vh; }
+  height: 80vh; }

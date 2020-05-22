@@ -23,9 +23,9 @@ body {
     margin: 1rem auto;
     background-color: $color-secondary-2;
     display: grid;
-    grid-template-areas: "head head"
-                         "about about"
-                         "projects projects"
-                         "footer footer";
+    grid-template-areas: "head"
+                         "about"
+                         "projects"
+                         "footer";
     
 }
