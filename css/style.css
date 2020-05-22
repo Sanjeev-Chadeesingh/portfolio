@@ -13,3 +13,25 @@ body {
   font-family: "Rubik", sans-serif;
   font-size: 1.4rem;
   line-height: 1.5; }
+
+.container {
+  display: grid;
+  grid-template-areas: "head head" "about projects" "footer footer"; }
+  .container > * {
+    padding: 5rem; }
+
+.section-about {
+  background-color: blue;
+  grid-area: about; }
+
+.footer {
+  background-color: purple;
+  grid-area: footer; }
+
+.header {
+  background-color: red;
+  grid-area: head; }
+
+.section-projects {
+  background-color: green;
+  grid-area: projects; }
