@@ -1,3 +1,19 @@
+@keyframes moveDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-50rem); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
+@keyframes moveInLeftLong {
+  0% {
+    opacity: 0;
+    transform: translateX(-800rem); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
 *,
 *::before,
 *::after {
@@ -26,6 +42,20 @@ body {
   font-size: 10rem;
   letter-spacing: .35rem; }
 
+.sub-heading {
+  color: white;
+  font-size: 5rem;
+  letter-spacing: .15rem; }
+
+.tert-heading {
+  color: white;
+  font-size: 3.5rem;
+  letter-spacing: .1rem; }
+
+.copy-normal {
+  color: white;
+  font-size: 2rem; }
+
 .bg-video {
   position: absolute;
   top: 0;
@@ -53,6 +83,15 @@ body {
   justify-content: center;
   align-content: center;
   position: relative; }
+  .header__box {
+    backface-visibility: hidden; }
+    .header__box--subheading {
+      animation-name: moveDown;
+      animation-duration: 1.75s;
+      animation-timing-function: ease-out; }
+    .header__box--copy {
+      animation-name: moveInLeftLong;
+      animation-duration: 4s; }
 
 .section-projects {
   background-color: green;
