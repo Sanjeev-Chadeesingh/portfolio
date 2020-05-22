@@ -1,0 +1,4 @@
+    // background-image: linear-gradient(to right, rgba($color-black, .6), rgba($color-black, .6)), url(../../img/header-image3.png);
+    // background-size: cover;
+    // background-position: center;
+    // background-repeat: no-repeat;
