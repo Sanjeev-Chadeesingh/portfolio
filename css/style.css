@@ -9,7 +9,7 @@
 @keyframes moveLong {
   0% {
     opacity: 0;
-    transform: translateX(800rem); }
+    transform: translateY(-300rem); }
   100% {
     opacity: 1;
     transform: translate(0); } }
@@ -44,7 +44,7 @@ body {
 
 .sub-heading {
   color: white;
-  font-size: 5rem;
+  font-size: 6rem;
   letter-spacing: .15rem; }
 
 .tert-heading {
@@ -54,7 +54,10 @@ body {
 
 .copy-normal {
   color: white;
-  font-size: 2rem; }
+  font-size: 2.75rem;
+  font-weight: 700;
+  letter-spacing: .1rem;
+  word-spacing: .1rem; }
 
 .bg-video {
   position: absolute;
@@ -70,8 +73,24 @@ body {
     object-fit: cover; }
 
 .section-about {
-  background-color: blue;
-  grid-area: about; }
+  grid-area: about;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../../img/about-2.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+
+.about__box {
+  padding: 3rem; }
+  .about__box--copy {
+    font-family: "Crimson Text", serif;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 2;
+    color: #c5c5c5; }
+    .about__box--copy:not(:last-child) {
+      margin-top: 5rem;
+      margin-bottom: 5rem; }
 
 .footer {
   background-color: purple;
@@ -99,3 +118,6 @@ body {
 
 .header {
   height: 80vh; }
+
+.section-about {
+  height: 95vh; }

@@ -1,4 +1,24 @@
 .section-about {
-    background-color: blue;
     grid-area: about;
+    background-image: linear-gradient(rgba($color-black, .9), rgba($color-black, .9)), url(../../img/about-2.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.about__box {
+    padding: 3rem;
+
+    &--copy {
+        font-family: $font-secondary;
+        font-size: 3rem;
+        font-weight: 700;
+        line-height: 2;
+        color: $color-softWhite;
+        &:not(:last-child) {
+            margin-top: 5rem;
+            margin-bottom: 5rem;
+        }
+    }
 }
