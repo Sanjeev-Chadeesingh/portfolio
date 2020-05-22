@@ -83,8 +83,7 @@ body {
 .about__box {
   padding: 3rem; }
   .about__box--copy {
-    font-family: "Crimson Text", serif;
-    font-size: 3rem;
+    font-size: 2.85rem;
     font-weight: 700;
     line-height: 2;
     color: #c5c5c5; }
@@ -117,7 +116,7 @@ body {
   grid-area: projects; }
 
 .header {
-  height: 80vh; }
+  height: 70vh; }
 
 .section-about {
   height: 95vh; }
