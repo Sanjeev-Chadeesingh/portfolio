@@ -9,16 +9,13 @@
         backface-visibility: hidden;
 
         &--subheading {
-            animation-name: moveDown;
-            animation-duration: 1s;
-            animation-timing-function: ease-out;
-            animation-delay: .25s;
+            animation-duration: 4s;
+            animation-iteration-count: 1;
         }
         &--copy {
-            animation-name: moveLong;
-            animation-duration: 1s;
-            animation-timing-function: ease-out;
-            animation-delay: .25s;
+            animation-duration: 4s;
+            animation-iteration-count: 1;
+           
         }    
     }
   }
