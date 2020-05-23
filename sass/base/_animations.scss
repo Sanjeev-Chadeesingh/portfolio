@@ -1,7 +1,12 @@
 @keyframes moveDown {
     0% {
         opacity: 0;
-        transform: translateY(-50rem);
+        transform: rotate(30deg);
+    }
+
+    80% {
+        opacity: 1;
+        transform: rotate(-10deg);
     }
 
     100% {
@@ -13,7 +18,12 @@
 @keyframes moveLong {
     0% {
         opacity: 0;
-        transform: translateY(-300rem);
+        transform: rotate(30deg);
+    }
+
+    80% {
+        opacity: 1;
+        transform: rotate(-10deg);
     }
 
     100% {

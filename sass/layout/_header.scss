@@ -3,7 +3,8 @@
     display: grid;
     justify-content: center;
     align-content: center;
-    position: relative;
+    font-family: $font-tertiary;
+    
     
     &__box {
         backface-visibility: hidden;
@@ -12,10 +13,13 @@
             animation-name: moveDown;
             animation-duration: 1.75s;
             animation-timing-function: ease-out;
+            animation-delay: .25s;
         }
         &--copy {
             animation-name: moveLong;
-            animation-duration: 4s;
+            animation-duration: 1.75s;
+            animation-timing-function: ease-out;
+            animation-delay: .25s;
         }    
     }
   }
