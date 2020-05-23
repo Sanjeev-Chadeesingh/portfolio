@@ -1,0 +1,28 @@
+.navigation {
+    margin-top: 2rem;
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+    &__link {
+        display: inline-block;
+        font-size: 3rem;
+        transition: all .2s;
+
+        &--item {
+            text-decoration: none;
+            color: white;    
+        }
+        
+        &:link,
+        &:visited,
+        &:active {
+            display: inline-block;
+        }
+        
+        &:hover {
+            transform: translateY(-1.5rem) scale(1.15);
+        }
+    }
+}
