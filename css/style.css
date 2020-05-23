@@ -35,7 +35,7 @@ body {
   width: 100%;
   margin: 0 auto;
   display: grid;
-  grid-template-areas: "head" "about" "projects" "footer"; }
+  grid-template-areas: "head" "projects" "about" "footer"; }
 
 .main-heading {
   color: white;
@@ -117,6 +117,9 @@ body {
 
 .header {
   height: 70vh; }
+
+.section-projects {
+  height: 95vh; }
 
 .section-about {
   height: 95vh; }
