@@ -2,8 +2,6 @@
     margin-top: 2rem;
     list-style: none;
     width: 100%;
-    display: flex;
-    justify-content: space-evenly;
 
     &__link {
         display: inline-block;
@@ -12,7 +10,7 @@
 
         &--item {
             text-decoration: none;
-            color: white;    
+            color: $color-primary-light;    
         }
         
         &:link,
