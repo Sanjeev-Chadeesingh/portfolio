@@ -144,11 +144,11 @@ body {
   .header__box {
     backface-visibility: hidden; }
     .header__box--subheading {
-      animation-duration: 4s;
-      animation-iteration-count: 1; }
+      animation-duration: 2s;
+      animation-iteration-count: infinite; }
     .header__box--copy {
-      animation-duration: 4s;
-      animation-iteration-count: 1; }
+      animation-duration: 2s;
+      animation-iteration-count: infinite; }
 
 .section-projects {
   background-color: #000;

@@ -9,12 +9,12 @@
         backface-visibility: hidden;
 
         &--subheading {
-            animation-duration: 4s;
-            animation-iteration-count: 1;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
         }
         &--copy {
-            animation-duration: 4s;
-            animation-iteration-count: 1;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
            
         }    
     }
