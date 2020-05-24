@@ -10,15 +10,11 @@
         margin-right: 3rem;
 
         &--subheading {
-            animation-name: moveDown;
-            animation-duration: 2s;
-            animation-timing-function: ease-in;
+            animation: moveDown 2s ease-in;
         }
+
         &--copy {
-            animation-name: moveDown;
-            animation-duration: 2s;
-            animation-timing-function: ease-in;
-           
+            animation: moveDown 2s ease-in; 
         }    
     }
   }
