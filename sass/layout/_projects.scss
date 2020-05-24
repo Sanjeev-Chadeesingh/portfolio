@@ -1,5 +1,79 @@
 .section-projects {
-    background-color: $color-secondary-1;
+    padding: 5rem;
+    background-image: linear-gradient(rgba($color-black, .85), rgba($color-black, .85)), url(../../img/project.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
     grid-area: projects;
+}
+
+.project__box {
+    text-align: center;
+    font-family: $font-tertiary;
+    text-transform: lowercase;
+
+    &--heading {
+        color: $color-softWhite;
+        font-size: 5rem;
+        animation: moveDown 2s ease-in;
+        font-weight: 700;
+    }
     
+    &--subheading {
+        color: $color-softWhite;
+        font-size: 2.5rem;
+        margin-bottom: 3rem;
+        animation: moveDown 2s ease-out;
+    }
+}
+
+.card__box {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(40rem, 1fr));
+    grid-gap: 2rem;
+    align-content: center;
+}
+
+.project-card {
+    border: .5rem solid $color-softWhite;
+    border-radius: 1rem;
+    transition: all .3s;
+    background-color: $color-white;
+    text-align: center;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+
+    &__image {
+        width: 100%;
+        height: auto;
+    }
+
+    &__info {
+
+        &--copy {
+            padding: .25rem;
+        }
+
+        &--site,
+        &--github {
+            font-size: 2rem;
+            font-weight: 700;
+        }
+
+        &--site:link,
+        &--site:visited {
+            text-decoration: none;
+            text-transform: lowercase;
+            color: $color-primary-dark;
+        }
+
+        &--github:link,
+        &--github:visited {
+            text-decoration: none;
+            text-transform: lowercase;
+            color: $color-primary-dark;
+        }
+    }
+
 }

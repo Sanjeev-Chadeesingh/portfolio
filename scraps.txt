@@ -2,3 +2,26 @@
     // background-size: cover;
     // background-position: center;
     // background-repeat: no-repeat;
+
+
+                <div class="project__box">
+                <div class="project-card project-card__one">
+                    <div class="project-card__one--image">
+                        <!-- <img src="img/liriBot.jpeg" alt="robot image" class="project-card__one--image-1">
+                    </div>
+                    <div class="project-card__copyBox">
+                        <div class="project-card__copyBox--heading">
+                            <h3 class="copy-normal">
+                                Liri-Bot
+                            </h3>
+                        </div>
+                        <div class="project-card__copyBox--description">
+                            <p class="project__box--copy">
+                                Liri-Bot is a bot that utilizes several API's to fetch information about all things music: concerts, songs and artists.
+                            </p>
+                        </div>
+                        <div class="project-card__copyBox--links">
+                            <a href="https://github.com/Sanjeev-Chadeesingh/liri-node-app" class="project__box--link">Liri-Bot Jump</a>
+                        </div>
+                    </div> -->
+                </div>

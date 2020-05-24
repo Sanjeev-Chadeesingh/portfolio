@@ -1,13 +1,7 @@
-.main-heading {
-    color: white;
-    font-size: 10rem;
-    letter-spacing: .35rem;
-}
 
-.sub-heading {
+.main-heading {
     color: $color-primary-light;
-    font-size: 6rem;
-    letter-spacing: .5rem;
+    font-size: 8rem;
     word-spacing: .25rem;
 }
 
@@ -19,6 +13,14 @@
 
 .copy-normal {
     color: $color-primary-light;
+    font-size: 2.75rem;
+    font-weight: 700;
+    letter-spacing: .1rem;
+    word-spacing: .1rem;
+}
+
+.copy-normal-dark {
+    color: $color-primary-dark;
     font-size: 2.75rem;
     font-weight: 700;
     letter-spacing: .1rem;
