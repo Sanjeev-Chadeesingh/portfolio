@@ -19,6 +19,11 @@
         transform: translateY(.75rem);
     }
 
+    90% {
+        opacity: 1;
+        transform: translateY(-.75rem);
+    }
+
     100% {
         opacity: 1;
         transform: translate(0);
