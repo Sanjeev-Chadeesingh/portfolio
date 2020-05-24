@@ -1,20 +1,23 @@
 .header {
     grid-area: head;
     display: grid;
-    justify-content: center;
+    justify-content: end;
     align-content: center;
     font-family: $font-primary;
     
     &__box {
         backface-visibility: hidden;
+        margin-right: 3rem;
 
         &--subheading {
+            animation-name: moveDown;
             animation-duration: 2s;
-            animation-iteration-count: infinite;
+            animation-timing-function: ease-in;
         }
         &--copy {
+            animation-name: moveDown;
             animation-duration: 2s;
-            animation-iteration-count: infinite;
+            animation-timing-function: ease-in;
            
         }    
     }

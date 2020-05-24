@@ -1,27 +1,40 @@
 .section-about {
     grid-area: about;
-    background-image: linear-gradient(rgba($color-black, .87), rgba($color-black, .87)), url(../../img/about-2.jpeg);
+    background-image: linear-gradient(rgba($color-black, .85), rgba($color-black, .85)), url(../../img/about-2.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    align-items: center;
 }
 
 .about__box {
     padding: 3rem;
-    grid-column: 1 / 1;
-    grid-row: 1 / 1;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, min-content);
+    align-items: center;
+    grid-row-gap: 5rem;
    
 
     &--copy {
-        font-size: 2.5rem;
+        font-size: 2.1rem;
         font-weight: 700;
         line-height: 2.25;
         word-spacing: .5rem;
+        text-align: justify;
         color: $color-softWhite;
+        grid-column: 1 / 1;
+
+        &-1 {
+            grid-row: 1 / 1;
+        }
+
+        &-2 {
+            grid-row: 2 / 2;
+        }
+
+        &-3 {
+            grid-row: 3 / 3;
+        }
     }
 }

@@ -1,12 +1,22 @@
 @keyframes moveDown {
     0% {
         opacity: 0;
-        transform: rotate(10deg);
+        transform: translateY(-20rem);
+    }
+
+    40% {
+        opacity: 1;
+        transform: translateY(.75rem);
+    }
+
+    60% {
+        opacity: 1;
+        transform: translateY(-1.75rem);
     }
 
     80% {
         opacity: 1;
-        transform: rotate(-10deg);
+        transform: translateY(.75rem);
     }
 
     100% {
@@ -15,19 +25,3 @@
     }
 }
 
-@keyframes moveLong {
-    0% {
-        opacity: 0;
-        transform: rotate(10deg);
-    }
-
-    80% {
-        opacity: 1;
-        transform: rotate(-10deg);
-    }
-
-    100% {
-        opacity: 1;
-        transform: translate(0);
-    }
-}
