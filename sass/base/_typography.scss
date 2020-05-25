@@ -3,12 +3,20 @@
     color: $color-primary-light;
     font-size: 8rem;
     word-spacing: .25rem;
+    @media only screen and (min-width: 500px) {
+        font-size: 4.5rem;
+        word-spacing: 0;
+    }
 }
 
 .tert-heading {
     color: $color-primary-light;
     font-size: 3.5rem;
     letter-spacing: .1rem;
+    @media only screen and (min-width: 500px) {
+        font-size: 2.25rem;
+        word-spacing: 0;
+    }
 }
 
 .copy-normal {
