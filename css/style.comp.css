@@ -35,6 +35,9 @@ font-family: 'Rubik', sans-serif;
 html {
   box-sizing: border-box;
   font-size: 62.5%; }
+  @media only screen and (max-width: 425px) {
+    html {
+      font-size: 55%; } }
 
 body {
   font-family: "Rubik", sans-serif;
@@ -180,7 +183,7 @@ body {
 
 .card__box {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(43rem, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(35rem, 1fr));
   grid-template-rows: repeat(auto-fill, min-content);
   grid-gap: 2rem; }
 
@@ -193,10 +196,13 @@ body {
   .project-card__image {
     width: 100%;
     height: auto; }
+  .project-card__info--copyLink:not(:last-child) {
+    margin-bottom: 3rem;
+    margin-top: 3rem; }
   .project-card__info--copy {
     padding: .25rem; }
   .project-card__info--site, .project-card__info--github {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     text-transform: uppercase; }
   .project-card__info--site:link, .project-card__info--site:visited {
     text-decoration: none;
