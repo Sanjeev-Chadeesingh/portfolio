@@ -27,12 +27,21 @@ body {
                          "footer";
    @media only screen and (min-width: 300px) and (max-width: 500px) {
        display: flex;
-       flex-direction: column;
+       flex-direction: row;
        flex-wrap: wrap;
-       & > * {
+       align-items: center;
+       .header {
+         display: none;
+       }
+       .card__box {
            display: flex;
-           flex-direction: column;
-           flex-wrap: wrap;
+           flex-flow: column wrap;
+       }
+       .project-card {
+           width: 88rem;
+       }
+       .footer {
+           display: none;
        }
    } 
 }
