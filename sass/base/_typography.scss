@@ -3,7 +3,7 @@
     color: $color-primary-light;
     font-size: 8rem;
     word-spacing: .25rem;
-    @media only screen and (max-width: 426px) {
+    @media only screen and (max-width: 26.625em) {
         font-size: 5rem;
         word-spacing: none;
     }
@@ -13,7 +13,7 @@
     color: $color-primary-light;
     font-size: 3.5rem;
     letter-spacing: .1rem;
-    @media only screen and (max-width: 426px) {
+    @media only screen and (max-width: 26.625em) {
         font-size: 2.25rem;
         word-spacing: none;
     }
