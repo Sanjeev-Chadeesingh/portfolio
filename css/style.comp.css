@@ -105,7 +105,7 @@ body {
 
 .section-about {
   grid-area: about;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(../../img/about-2.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(../img/about-2.jpeg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -157,7 +157,7 @@ body {
 
 .section-projects {
   padding: 5rem;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(../../img/project.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(../img/project.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   grid-area: projects; }

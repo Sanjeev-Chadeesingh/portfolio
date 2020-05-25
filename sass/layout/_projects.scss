@@ -6,6 +6,8 @@
     grid-area: projects;
 }
 
+// url(../img/project.jpeg);
+
 .project__box {
     text-align: center;
     font-family: $font-tertiary;
@@ -57,21 +59,19 @@
 
         &--site,
         &--github {
-            font-size: 2rem;
-            font-weight: 700;
+            font-size: 1.3rem;
+            text-transform: uppercase;
         }
 
         &--site:link,
         &--site:visited {
             text-decoration: none;
-            text-transform: lowercase;
             color: $color-primary-dark;
         }
 
         &--github:link,
         &--github:visited {
             text-decoration: none;
-            text-transform: lowercase;
             color: $color-primary-dark;
         }
     }
