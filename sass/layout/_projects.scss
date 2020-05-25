@@ -30,9 +30,9 @@
 
 .card__box {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(43rem, 1fr));
+    grid-template-rows: repeat(auto-fill, min-content);
     grid-gap: 2rem;
-    align-content: center;
 }
 
 .project-card {
@@ -41,10 +41,6 @@
     transition: all .3s;
     background-color: $color-white;
     text-align: center;
-
-    &:hover {
-        transform: scale(1.1);
-    }
 
     &__image {
         width: 100%;

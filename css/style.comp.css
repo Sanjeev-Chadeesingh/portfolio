@@ -52,19 +52,11 @@ body {
   color: #4cd137;
   font-size: 8rem;
   word-spacing: .25rem; }
-  @media only screen and (min-width: 500px) {
-    .main-heading {
-      font-size: 4.5rem;
-      word-spacing: 0; } }
 
 .tert-heading {
   color: #4cd137;
   font-size: 3.5rem;
   letter-spacing: .1rem; }
-  @media only screen and (min-width: 500px) {
-    .tert-heading {
-      font-size: 2.25rem;
-      word-spacing: 0; } }
 
 .copy-normal {
   color: #4cd137;
@@ -188,9 +180,9 @@ body {
 
 .card__box {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
-  grid-gap: 2rem;
-  align-content: center; }
+  grid-template-columns: repeat(auto-fill, minmax(43rem, 1fr));
+  grid-template-rows: repeat(auto-fill, min-content);
+  grid-gap: 2rem; }
 
 .project-card {
   border: 0.5rem solid #c5c5c5;
@@ -198,8 +190,6 @@ body {
   transition: all .3s;
   background-color: #eee;
   text-align: center; }
-  .project-card:hover {
-    transform: scale(1.1); }
   .project-card__image {
     width: 100%;
     height: auto; }
