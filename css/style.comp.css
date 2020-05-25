@@ -46,6 +46,15 @@ body {
   margin: 0 auto;
   display: grid;
   grid-template-areas: "head" "projects" "about" "footer"; }
+  @media only screen and (min-width: 300px) and (max-width: 500px) {
+    .container {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap; }
+      .container > * {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap; } }
 
 .main-heading {
   color: #27ae60;

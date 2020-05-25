@@ -29,5 +29,10 @@ body {
        display: flex;
        flex-direction: column;
        flex-wrap: wrap;
+       & > * {
+           display: flex;
+           flex-direction: column;
+           flex-wrap: wrap;
+       }
    } 
 }
