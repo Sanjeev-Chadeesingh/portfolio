@@ -187,7 +187,7 @@ body {
       grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); } }
 
 .project-card {
-  border: 0.5rem solid #c5c5c5;
+  border: 0.5rem solid #27ae60;
   border-radius: 1rem;
   transition: all .3s;
   background-color: #eee;
