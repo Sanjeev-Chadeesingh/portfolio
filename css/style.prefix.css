@@ -149,7 +149,7 @@ body {
 .section-about {
   grid-area: about;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.9))), url(../img/about-2.jpeg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../../img/about-2.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../img/about-2.jpeg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
