@@ -46,21 +46,6 @@ body {
   margin: 0 auto;
   display: grid;
   grid-template-areas: "head" "projects" "about" "footer"; }
-  @media only screen and (min-width: 300px) and (max-width: 500px) {
-    .container {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      align-items: center; }
-      .container .header {
-        display: none; }
-      .container .card__box {
-        display: flex;
-        flex-flow: column wrap; }
-      .container .project-card {
-        width: 88rem; }
-      .container .footer {
-        display: none; } }
 
 .main-heading {
   color: #27ae60;
