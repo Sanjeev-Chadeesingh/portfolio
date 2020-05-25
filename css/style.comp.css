@@ -105,7 +105,7 @@ body {
 
 .section-about {
   grid-area: about;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(../img/about-2.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(../../img/about-2.jpeg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -114,7 +114,7 @@ body {
 .about__box {
   padding: 3rem;
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 100rem;
   grid-template-rows: repeat(3, min-content);
   align-items: center;
   grid-row-gap: 5rem; }
@@ -197,15 +197,13 @@ body {
   .project-card__info--copy {
     padding: .25rem; }
   .project-card__info--site, .project-card__info--github {
-    font-size: 2rem;
-    font-weight: 700; }
+    font-size: 1.3rem;
+    text-transform: uppercase; }
   .project-card__info--site:link, .project-card__info--site:visited {
     text-decoration: none;
-    text-transform: lowercase;
     color: #27ae60; }
   .project-card__info--github:link, .project-card__info--github:visited {
     text-decoration: none;
-    text-transform: lowercase;
     color: #27ae60; }
 
 .header {

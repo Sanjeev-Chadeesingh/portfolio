@@ -1,6 +1,6 @@
 .section-about {
     grid-area: about;
-    background-image: linear-gradient(rgba($color-black, .85), rgba($color-black, .85)), url(../../);
+    background-image: linear-gradient(rgba($color-black, .9), rgba($color-black, .9)), url(../../img/about-2.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -10,8 +10,9 @@
 .about__box {
     padding: 3rem;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 90rem;
     grid-template-rows: repeat(3, min-content);
+    justify-content: center;
     align-items: center;
     grid-row-gap: 5rem;
 

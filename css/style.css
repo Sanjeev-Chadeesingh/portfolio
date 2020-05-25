@@ -105,7 +105,7 @@ body {
 
 .section-about {
   grid-area: about;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(../img/about-2.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../../img/about-2.jpeg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -114,8 +114,9 @@ body {
 .about__box {
   padding: 3rem;
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 90rem;
   grid-template-rows: repeat(3, min-content);
+  justify-content: center;
   align-items: center;
   grid-row-gap: 5rem; }
   .about__box--copy {
