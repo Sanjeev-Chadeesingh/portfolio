@@ -35,15 +35,11 @@ font-family: 'Rubik', sans-serif;
 html {
   box-sizing: border-box;
   font-size: 62.5%; }
-  @media only screen and (max-width: 425px) {
-    html {
-      font-size: 55%; } }
 
 body {
   font-family: "Rubik", sans-serif;
   font-size: 1.4rem;
-  line-height: 1.5;
-  background-color: #2c3e50; }
+  line-height: 1.5; }
 
 .container {
   width: 100%;
@@ -52,14 +48,14 @@ body {
   grid-template-areas: "head" "projects" "about" "footer"; }
 
 .main-heading {
-  color: #4cd137;
+  color: #27ae60;
   font-size: 8rem;
-  word-spacing: .25rem; }
-
-.tert-heading {
-  color: #4cd137;
-  font-size: 3.5rem;
-  letter-spacing: .1rem; }
+  word-spacing: .25rem;
+  font-family: "Rubik", sans-serif; }
+  @media only screen and (max-width: 26.625em) {
+    .main-heading {
+      font-size: 6rem;
+      word-spacing: none; } }
 
 .copy-normal {
   color: #4cd137;
@@ -82,7 +78,7 @@ body {
   width: 100%;
   height: 100%;
   z-index: -1;
-  opacity: .15; }
+  opacity: .2; }
   .bg-video__content {
     height: 100%;
     width: 100%;
@@ -168,7 +164,7 @@ body {
 
 .project__box {
   text-align: center;
-  font-family: "Finger Paint", cursive;
+  font-family: "Rubik", sans-serif;
   text-transform: lowercase; }
   .project__box--heading {
     color: #c5c5c5;
@@ -183,9 +179,12 @@ body {
 
 .card__box {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(35rem, 1fr));
-  grid-template-rows: repeat(auto-fill, min-content);
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows: min-content;
   grid-gap: 2rem; }
+  @media only screen and (max-width: 26.625em) {
+    .card__box {
+      grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); } }
 
 .project-card {
   border: 0.5rem solid #c5c5c5;
@@ -197,13 +196,13 @@ body {
     width: 100%;
     height: auto; }
   .project-card__info--copyLink:not(:last-child) {
-    margin-bottom: 3rem;
-    margin-top: 3rem; }
+    margin-bottom: 2rem;
+    margin-top: 1rem; }
   .project-card__info--copy {
     padding: .25rem; }
   .project-card__info--site, .project-card__info--github {
     font-size: 1.5rem;
-    text-transform: uppercase; }
+    text-transform: lowercase; }
   .project-card__info--site:link, .project-card__info--site:visited {
     text-decoration: none;
     color: #27ae60; }
@@ -212,5 +211,7 @@ body {
     color: #27ae60; }
 
 .header {
-  height: 80vh;
-  position: relative; }
+  height: 45vh;
+  position: relative;
+  background-color: #000;
+  z-index: -1; }
