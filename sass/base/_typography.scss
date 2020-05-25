@@ -1,20 +1,11 @@
 
 .main-heading {
-    color: $color-primary-light;
-    font-size: 8rem;
+    color: $color-primary-dark;
+    font-size: 7rem;
     word-spacing: .25rem;
+    font-family: $font-primary;
     @media only screen and (max-width: 26.625em) {
         font-size: 5rem;
-        word-spacing: none;
-    }
-}
-
-.tert-heading {
-    color: $color-primary-light;
-    font-size: 3.5rem;
-    letter-spacing: .1rem;
-    @media only screen and (max-width: 26.625em) {
-        font-size: 2.25rem;
         word-spacing: none;
     }
 }

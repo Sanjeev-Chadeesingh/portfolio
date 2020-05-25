@@ -1,4 +1,7 @@
 .header {
-    height: 80vh;
+    height: 15vh;
+    width: 100%;
     position: relative;
+    background-color: $color-black;
+    z-index: -1;
 }

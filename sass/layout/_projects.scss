@@ -10,7 +10,7 @@
 
 .project__box {
     text-align: center;
-    font-family: $font-tertiary;
+    font-family: $font-primary;
     text-transform: lowercase;
 
     &--heading {
@@ -34,7 +34,7 @@
     @media only screen and (max-width: 26.625em) {
         grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     }
-    grid-template-rows: repeat(auto-fit, min-content);
+    grid-auto-rows: min-content;
     grid-gap: 2rem;
 }
 
@@ -54,8 +54,8 @@
 
         &--copyLink {
             &:not(:last-child) {
-                margin-bottom: 3rem;
-                margin-top: 3rem;
+                margin-bottom: 2rem;
+                margin-top: 1rem;
             }
         }
 
@@ -66,7 +66,7 @@
         &--site,
         &--github {
             font-size: 1.5rem;
-            text-transform: uppercase;
+            text-transform: lowercase;
         }
 
         &--site:link,
